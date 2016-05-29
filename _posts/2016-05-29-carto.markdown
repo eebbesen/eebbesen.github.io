@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Getting started with CartoDB"
+date:   2016-05-29 07:00:38 -0500
+categories: cartodb upload
+---
+
+[CartoDB][carto-home] is one of several free sites where you can upload, visualize and share data using maps.  Let's create a [CartoDB][carto-home] account and upload a dataset.
+
+### Sign up for a [CartoDB][carto-home] account
+Create an account using an existing email address or Google account [here][carto-signup].  
+
+### Upload a dataset
+You probably already have data that you're interested in.  If not, you can browse the [CartoDB data library][carto-datasets] (look for 'Data library') or [Data.gov][data-gov].  If you cannot think of anything that interests you, you can use the [Ramsey County census block shape files][ramsey-co-census-blocks].
+
+* Download a dataset that interests you
+* Click the New Dataset button on the [CartoDB datasets page][carto-datasets]
+* Drag your csv, zip or other data file into the upload area and wait as the data is uploaded and processed.  This can take several minutes so be patient.
+* Click Map View to see your data visualized on a map
+
+
+### Having trouble visualizing your dataset?
+It is possible your data is not in a format [CartoDB][carto-home] can understand.  This is typically the case if your dataset does not have data in the column named `the_geom` and/or does not include clearly defined latitude and longitude columns.
+
+### Next
+Future posts will cover conversion strategies for making your data compatible with CartoDB.
+
+
+[carto-datasets]: https://ericebbesen.cartodb.com/dashboard/datasets
+[carto-academy]: https://academy.cartodb.com/
+[carto-home]: https://cartodb.com
+[carto-signup]: https://cartodb.com/signup[data-gov]: https://www.data.gov/
+[ramsey-co-census-blocks]: http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0?geometry=-93.107%2C44.947%2C-93.076%2C44.952&uiTab=table
