@@ -6,9 +6,53 @@
 </description>
     <link>https://github.com/</link>
     <atom:link href="https://github.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2016 16:50:54 -0500</pubDate>
-    <lastBuildDate>Mon, 30 May 2016 16:50:54 -0500</lastBuildDate>
+    <pubDate>Mon, 30 May 2016 18:55:20 -0500</pubDate>
+    <lastBuildDate>Mon, 30 May 2016 18:55:20 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Showing data over time: torque maps with CartoDB</title>
+        <description>&lt;p&gt;Sometimes you can make a dataset more informative and more impactful by displaying it over time.  Trends can become more clear for data that has a time compenent when viewers see the data visualized over time.  &lt;a href=&quot;https://cartodb.com&quot;&gt;CartoDB&lt;/a&gt; offers torque maps to allow you to do this.  Let’s create a torque map of our own!&lt;/p&gt;
+
+&lt;h3 id=&quot;upload-a-dataset-that-has-a-time-component&quot;&gt;Upload a dataset that has a time component&lt;/h3&gt;
+&lt;p&gt;You probably already have data that you’re interested in.  If not, you can browse the &lt;a href=&quot;https://ericebbesen.cartodb.com/dashboard/datasets&quot;&gt;CartoDB data library&lt;/a&gt; (look for ‘Data library’).  I will be using the &lt;a href=&quot;https://gisdata.mn.gov/dataset/us-mn-state-metc-econ-residential-building-permts&quot;&gt;7-county Twin Cities Metropolitan Area residential building permit data from 2009 through 2014&lt;/a&gt; dataset.&lt;/p&gt;
+
+&lt;p&gt;Your dataset should include a column that is date-specific.  &lt;a href=&quot;https://gisdata.mn.gov/dataset/us-mn-state-metc-econ-residential-building-permts&quot;&gt;My dataset&lt;/a&gt; has a column called &lt;code class=&quot;highlighter-rouge&quot;&gt;year&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-a-torque-map-from-your-data&quot;&gt;Create a torque map from your data&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open your dataset in &lt;a href=&quot;https://cartodb.com&quot;&gt;CartoDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Click Map View&lt;/li&gt;
+  &lt;li&gt;On the right hand side, locate the Wizards icon – it looks like a paintbrush and sits directly below SQL&lt;/li&gt;
+  &lt;li&gt;Select your dataset’s date column from the Time Column dropdown.  Your data should now be ‘playing’ on your map!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tweak-your-torque-map&quot;&gt;Tweak your torque map&lt;/h3&gt;
+&lt;p&gt;There are a number of knobs you can adjust to give your torque map the look you’re going for.  Try setting Steps to a value that is close the number of data groupings in your dataset.  Try setting Duration(secs) to a value that isn’t too fast or too slow.&lt;/p&gt;
+
+&lt;p&gt;Tip: If you click the CSS tab (just below your torque paintbrush) you can change values (like steps) to values that aren’t available in the dropdowns.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://academy.cartodb.com/&quot;&gt;CartoDB’s Carto Academy&lt;/a&gt; for more detailed training on all of the visualization features offered by &lt;a href=&quot;https://cartodb.com&quot;&gt;CartoDB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;share-your-torque-map&quot;&gt;Share your torque map&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click the left-pointing arrow in the upper left of your browser to return to a list of your datasets&lt;/li&gt;
+  &lt;li&gt;Select your map by clicking on the icon to the left of it&lt;/li&gt;
+  &lt;li&gt;Click Create map at the top of the list of datasets.  Your map should appear with the settings you last applied&lt;/li&gt;
+  &lt;li&gt;When you are happy with the way your map looks, click Publish.  Copy the link(s) that you want to share or embed&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 30 May 2016 17:59:44 -0500</pubDate>
+        <link>https://github.com/cartodb/torque/2016/05/30/carto-torque.html</link>
+        <guid isPermaLink="true">https://github.com/cartodb/torque/2016/05/30/carto-torque.html</guid>
+        
+        
+        <category>cartodb</category>
+        
+        <category>torque</category>
+        
+      </item>
     
       <item>
         <title>Getting started with CartoDB</title>
