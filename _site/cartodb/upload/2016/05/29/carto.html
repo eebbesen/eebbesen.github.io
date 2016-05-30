@@ -65,23 +65,26 @@
     <p><a href="https://cartodb.com">CartoDB</a> is one of several free sites where you can upload, visualize and share data using maps.  Let’s create a <a href="https://cartodb.com">CartoDB</a> account and upload a dataset.</p>
 
 <h3 id="sign-up-for-a-cartodbcarto-home-account">Sign up for a <a href="https://cartodb.com">CartoDB</a> account</h3>
-<p>Create an account using an existing email address or Google account <a href="https://cartodb.com/signup[data-gov]: https://www.data.gov/">here</a>.</p>
+<p>Create an account using an existing email address or Google account <a href="https://cartodb.com/signup">here</a>.</p>
+
+<h3 id="find-a-dataset">Find a dataset</h3>
+<p>You probably already have data that you’re interested in.  If not, you can browse the <a href="https://ericebbesen.cartodb.com/dashboard/datasets">CartoDB data library</a> (look for ‘Data library’) or <a href="https://www.data.gov/">Data.gov</a>.  If you cannot think of anything that interests you, you can use the <a href="http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0?geometry=-93.107%2C44.947%2C-93.076%2C44.952&amp;uiTab=table">Ramsey County census block shape files</a>.</p>
 
 <h3 id="upload-a-dataset">Upload a dataset</h3>
-<p>You probably already have data that you’re interested in.  If not, you can browse the <a href="https://ericebbesen.cartodb.com/dashboard/datasets">CartoDB data library</a> (look for ‘Data library’) or [Data.gov][data-gov].  If you cannot think of anything that interests you, you can use the <a href="http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0?geometry=-93.107%2C44.947%2C-93.076%2C44.952&amp;uiTab=table">Ramsey County census block shape files</a>.</p>
-
 <ul>
-  <li>Download a dataset that interests you</li>
   <li>Click the New Dataset button on the <a href="https://ericebbesen.cartodb.com/dashboard/datasets">CartoDB datasets page</a></li>
   <li>Drag your csv, zip or other data file into the upload area and wait as the data is uploaded and processed.  This can take several minutes so be patient.</li>
   <li>Click Map View to see your data visualized on a map</li>
 </ul>
 
-<h3 id="having-trouble-visualizing-your-dataset">Having trouble visualizing your dataset?</h3>
-<p>It is possible your data is not in a format <a href="https://cartodb.com">CartoDB</a> can understand.  This is typically the case if your dataset does not have data in the column named <code class="highlighter-rouge">the_geom</code> and/or does not include clearly defined latitude and longitude columns.</p>
+<p>The Data View will display your data similar to a spreadsheet.  If <a href="https://cartodb.com">CartoDB</a> understands where the location data for your dataset is the second column (named <code class="highlighter-rouge">the_geom</code>) will display something besides <code class="highlighter-rouge">null</code>.  If you click Map View you will see your data plotted on the map!</p>
 
-<h3 id="next">Next</h3>
-<p>Future posts will cover conversion strategies for making your data compatible with CartoDB.</p>
+<h3 id="having-trouble-visualizing-your-dataset">Having trouble visualizing your dataset?</h3>
+<p>If <code class="highlighter-rouge">the_geom</code> is <code class="highlighter-rouge">null</code> your data is not in a format <a href="https://cartodb.com">CartoDB</a> can automatically understand.  Clicking Map View will show you a map with no data points.  This is typically the case if your dataset does not have data in the column named <code class="highlighter-rouge">the_geom</code> and/or does not include clearly defined latitude and longitude columns.</p>
+
+<p>In many cases you can help CartoDB understand the location data in your dataset by telling it which columns hold location information.</p>
+
+<p>The next post will cover conversion strategies for making your data compatible with CartoDB.</p>
 
 
   </div>
