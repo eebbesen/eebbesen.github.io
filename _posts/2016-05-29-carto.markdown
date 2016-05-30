@@ -10,8 +10,8 @@ categories: cartodb upload
 ### Sign up for a [CartoDB][carto-home] account
 Create an account using an existing email address or Google account [here][carto-signup].  
 
-### Find a dataset
-You probably already have data that you're interested in.  If not, you can browse the [CartoDB data library][carto-datasets] (look for 'Data library') or [Data.gov][data-gov].  If you cannot think of anything that interests you, you can use the [Ramsey County census block shape files][ramsey-co-census-blocks].
+### Upload a dataset
+You probably already have data that you're interested in.  If not, you can browse the [CartoDB data library][carto-datasets] (look for 'Data library') or [Data.gov][data-gov].  If you cannot think of anything that interests you, use the [Metro Transit Go To card retailers][go-to-retailers] dataset.
 
 ### Upload a dataset
 * Click the New Dataset button on the [CartoDB datasets page][carto-datasets]
@@ -25,12 +25,12 @@ If `the_geom` is `null` your data is not in a format [CartoDB][carto-home] can a
 
 In many cases you can help CartoDB understand the location data in your dataset by telling it which columns hold location information.
 
-The next post will cover conversion strategies for making your data compatible with CartoDB.
+### Next
+Future posts will cover georeferencing and conversion strategies for making your data compatible with CartoDB.
 
 
 [carto-datasets]: https://ericebbesen.cartodb.com/dashboard/datasets
 [carto-academy]: https://academy.cartodb.com/
 [carto-home]: https://cartodb.com
-[carto-signup]: https://cartodb.com/signup
-[data-gov]: https://www.data.gov/
-[ramsey-co-census-blocks]: http://openramsey.ramseygis.opendata.arcgis.com/datasets/3877e404a0db4eb79ccba1795fda5529_0?geometry=-93.107%2C44.947%2C-93.076%2C44.952&uiTab=table
+[carto-signup]: https://cartodb.com/signup[data-gov]: https://www.data.gov/
+[go-to-retailers]: https://gisdata.mn.gov/dataset/us-mn-state-metc-econ-go-to-card-retailer
