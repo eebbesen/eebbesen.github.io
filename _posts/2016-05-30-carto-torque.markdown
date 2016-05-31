@@ -5,6 +5,8 @@ date:   2016-05-30 17:59:44 -0500
 categories: cartodb torque
 ---
 
+<!-- ![My torque map](https://ericebbesen.cartodb.com/viz/e3a20122-26c0-11e6-ab20-0ecfd53eb7d3/embed_map) -->
+
 Sometimes you can make a dataset more informative and more impactful by displaying it over time.  Trends can become more clear for data that has a time compenent when viewers see the data visualized over time.  [CartoDB][carto-home] offers torque maps to allow you to do this.  Let's create a torque map of our own!
 
 ### Upload a dataset that has a time component
@@ -20,9 +22,9 @@ Your dataset should include a column that is date-specific.  [My dataset][reside
 
 
 ### Tweak your torque map
-There are a number of knobs you can adjust to give your torque map the look you're going for.  Try setting Steps to a value that is close the number of data groupings in your dataset.  Try setting Duration(secs) to a value that isn't too fast or too slow.
+There are a number of knobs you can adjust to give your torque map the look you're going for.  Try setting Steps to a value that is close the number of data groupings in your dataset.  (For example, if you have two years' worth of data and want to show changes by month, enter 24.)  Try setting Duration(secs) to a value that isn't too fast or too slow.
 
-Tip: If you click the CSS tab (just below your torque paintbrush) you can change values (like steps) to values that aren't available in the dropdowns.
+Tip: If you click the CSS tab (just below your torque paintbrush) you can change values (like number of steps) to values that aren't available in the dropdowns.
 
 See [CartoDB's Carto Academy][carto-academy] for more detailed training on all of the visualization features offered by [CartoDB][carto-home].
 

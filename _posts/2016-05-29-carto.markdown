@@ -10,8 +10,8 @@ categories: cartodb upload
 ### Sign up for a [CartoDB][carto-home] account
 Create an account using an existing email address or Google account [here][carto-signup].  
 
-### Upload a dataset
-You probably already have data that you're interested in.  If not, you can browse the [CartoDB data library][carto-datasets] (look for 'Data library') or [Data.gov][data-gov].  If you cannot think of anything that interests you, use the [Metro Transit Go To card retailers][go-to-retailers] dataset.
+### Identify a dataset
+You probably already have data that you're interested in.  If not you can browse the [CartoDB data library][carto-datasets] (look for 'Data library') or [Data.gov][data-gov].  If you cannot find a dataset that interests you, use the [Metro Transit Go To card retailers][go-to-retailers] dataset.
 
 ### Upload a dataset
 * Click the New Dataset button on the [CartoDB datasets page][carto-datasets]
@@ -32,5 +32,6 @@ Future posts will cover georeferencing and conversion strategies for making your
 [carto-datasets]: https://ericebbesen.cartodb.com/dashboard/datasets
 [carto-academy]: https://academy.cartodb.com/
 [carto-home]: https://cartodb.com
-[carto-signup]: https://cartodb.com/signup[data-gov]: https://www.data.gov/
+[carto-signup]: https://cartodb.com/signup
+[data-gov]: https://www.data.gov/
 [go-to-retailers]: https://gisdata.mn.gov/dataset/us-mn-state-metc-econ-go-to-card-retailer
