@@ -5,8 +5,6 @@ date:   2016-05-30 17:59:44 -0500
 categories: cartodb torque
 ---
 
-<!-- ![My torque map](https://ericebbesen.cartodb.com/viz/e3a20122-26c0-11e6-ab20-0ecfd53eb7d3/embed_map) -->
-
 Sometimes you can make a dataset more informative and more impactful by displaying it over time.  Trends can become more clear for data that has a time compenent when viewers see the data visualized over time.  [CartoDB][carto-home] offers torque maps to allow you to do this.  Let's create a torque map of our own!
 
 ### Upload a dataset that has a time component
@@ -19,6 +17,8 @@ Your dataset should include a column that is date-specific.  [My dataset][reside
 * Click Map View
 * On the right hand side, locate the Wizards icon -- it looks like a paintbrush and sits directly below SQL
 * Select your dataset's date column from the Time Column dropdown.  Your data should now be 'playing' on your map!
+
+<iframe width="100%" height="520" frameborder="0" src="https://ericebbesen.cartodb.com/viz/e3a20122-26c0-11e6-ab20-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
 ### Tweak your torque map
